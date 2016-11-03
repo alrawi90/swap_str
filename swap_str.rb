@@ -2,7 +2,6 @@ def swap_str(str="Hi There , iTS CoLd day")
   new_str=[]
 arr=str.split(" ")
 arr.each do |word|
-  word.capitalize
   word.split("").each do |letter|
     if letter==letter.upcase
       new_str.push(letter.downcase)
